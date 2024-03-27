@@ -1,7 +1,5 @@
 
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
@@ -197,9 +195,34 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-left: 30px;
 }
 
 .icones-footer{
   width: 40px;
-  margin: 10px;
+  margin: 20px;
+}
+.redes{
+  padding-right: 20px;
+}
+footer form{
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+
+  margin-bottom: 20px;
+}
+.botao-enviar{
+  width: 110px;
+  padding: 5px;
+  margin-top: 25px;
+  background-color: #1e1e1e;
+  border: 1px solid rgb(219, 143, 255);
+  color: rgb(219, 143, 255);
+}
+
+.botao-enviar:hover{
+  background-color: rgb(219, 143, 255);
+  color: #1e1e1e;
+  
 }
