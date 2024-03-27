@@ -1,0 +1,205 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  background-image: url(img/15518074_5594016.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icones{
+  width: 50px;
+}
+
+header{
+  height: 15vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+}
+
+.h1-logo{
+  color: rgb(130, 0, 190);
+}
+
+header nav  a{
+  text-decoration: none;
+  padding: 25px;
+  color: rgb(130, 0, 190);
+  font-size: 20px;
+}
+
+header nav  a:hover{
+    color: rgb(219, 143, 255);
+    
+}
+.container{
+  height: 85vh;
+}
+.eusou{
+  position: absolute; 
+  top: 56%; 
+  left: 33%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: black;
+}
+h2 span{
+  color: rgb(130, 0, 190);
+}
+.icones{
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+.area-foto{
+  position: absolute;
+  top: 53%;
+  left: 76%; 
+  transform: translate(-50%, -50%);
+  
+  
+}
+.minha-foto{
+  background-color: rgba(130, 0, 190, 0.719);
+  border-radius: 100%;
+  margin-top: 60px;
+}
+
+.container2{
+  height: 100vh;
+  background-image: url(img/34295197_textured_black_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.area-foto2{
+  position: absolute; 
+  top: 150%; 
+  left: 28%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: black;
+}
+
+.minha-foto2{
+  width: 350px;
+  background-color: #a58ac3;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.x{
+  background-color: #cebaf6;
+  box-shadow: 10px 8px black;
+  width: 450px;
+}
+
+.x p{
+  padding-top: 10px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.x .x-esquerdo{
+  text-align: start;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.sobre-mim{
+  position: absolute;
+  top: 148%;
+  left: 69%; 
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.692);
+}
+
+.sobre-mim > h1{
+  font-size: 70px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a58ac3;
+  text-shadow: 5px 5px 1px black solid;
+  padding-bottom: 15px;
+}
+.sobre-mim p{
+  text-align: justify;
+  font-size: 22px;
+}
+
+.container3{
+  background: linear-gradient(to top , #a58ac3, #cebaf6 , #a58ac3 );
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    
+}
+
+.proj1, .proj2, .proj3{
+    color: white;
+    border: 1px solid #cebaf6;    
+    background-color: rgba(0, 0, 0, 0.76);  
+    width: 20%;
+    height: 50%;
+    padding: 20px;
+    box-shadow: 0px 2px 10px black;
+}
+.proj1 h1, .proj2 h1 ,.proj3 h1{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.proj1 p, .proj2 p ,.proj3 p{
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.747);
+}
+
+.proj1 a, .proj2 a,.proj3 a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px  solid #cebaf6;
+  margin: 10px;
+  color: #cebaf6;
+  
+}
+
+.proj1 a:hover, .proj2 a:hover,.proj3 a:hover{
+  background-color: #cebaf6;
+  color:  rgba(0, 0, 0, 0.76) ;
+}
+
+.margin-top-40px{
+  margin-top: 40px;
+}
+
+footer{
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.884);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icones-footer{
+  width: 40px;
+  margin: 10px;
+}
